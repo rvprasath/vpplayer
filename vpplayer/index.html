@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Audio player</title>
+<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+<script type="text/javascript" src="./lib/vpplayer.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/vpplayer.css">
+</head>
+<style>
+#player{
+	width: 800px;
+	margin: 200px auto;
+}
+</style>
+<script>
+$(document).ready(function(){
+	$("#player").vpplayer({
+		src: "./audio/audio.mp3",
+		trackName: "sample audio",
+	});
+});
+</script>
+
+<body>
+<div id="player"></div>
+</body>
+</html>
