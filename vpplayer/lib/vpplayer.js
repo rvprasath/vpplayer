@@ -3,7 +3,7 @@
  * https://github.com/rvprasath/vpplayer
  * © COPYRIGHT 2017-2018 Vpplayer v1.0
  * Licensed under the MIT license
- * @author VISHNU
+ * @author vishnu prasath
  */
 
 (function($) {
