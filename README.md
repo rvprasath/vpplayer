@@ -159,3 +159,6 @@ displayColor: "green"
 <pre>
 displayColor: "green, blue"
 </pre>
+<hr/>
+<b>License</b><br/>
+MIT license.
