@@ -41,6 +41,9 @@ Link all the libraries along with the <b>vpplayer.js</b> and <b>vpplayer.css</b>
 <b>vpplayer script</b>
 The basic vpplayer script<br/>
 <b>src attribute</b>
+
+<img src="https://raw.githubusercontent.com/rvprasath/vpplayer-shaka-video-integration/master/screenshots/img3.png"/>
+
 <pre>
 $(document).ready(function(){
 	$("#player").vpplayer({
