@@ -105,7 +105,7 @@ The <b>view</b> attribute specifies the view mode of the player.
 
 vpplayer supports two mode of view.
 
-<pre>view: "basic"</pre> <b>and</b> <pre>view : "minimal"</pre>
+<pre>view: "basic"</pre> <b>and</b> <pre>view: "minimal"</pre>
 
 
 <b>playerColor attribute</b>
