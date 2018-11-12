@@ -46,9 +46,9 @@ The basic vpplayer script<br/>
 
 <pre>
 $(document).ready(function(){
-	$("#player").vpplayer({
-		src: "./audio/audio.mp3"
-	});
+$("#player").vpplayer({
+    src: "./audio/audio.mp3"
+});
 });
 </pre>
 The <b>src</b> attribute is process the url of the audio file. In the above code the <b>"./audio/audio.mp3"</b> path is the audio file path within the application.
@@ -56,10 +56,10 @@ The <b>src</b> attribute is process the url of the audio file. In the above code
 <b>type attribute</b>
 <pre>
 $(document).ready(function(){
-	$("#player").vpplayer({
-		src: "./audio/audio.mp3",
+$("#player").vpplayer({
+    src: "./audio/audio.mp3",
     type: "audio/mp3"
-	});
+});
 });
 </pre>
 The <b>type</b> attribute specifies the type of the audio file.
@@ -67,11 +67,11 @@ The <b>type</b> attribute specifies the type of the audio file.
 <b>trackName attribute</b>
 <pre>
 $(document).ready(function(){
-	$("#player").vpplayer({
-		src: "./audio/audio.mp3"
+$("#player").vpplayer({
+    src: "./audio/audio.mp3"
     type: "audio/mp3",
     trackName: "sample audio",
-	});
+});
 });
 </pre>
 The <b>trackName</b> attribute displays the audio name in the player screen.
@@ -79,12 +79,12 @@ The <b>trackName</b> attribute displays the audio name in the player screen.
 <b>preloadMessage attribute</b>
 <pre>
 $(document).ready(function(){
-	$("#player").vpplayer({
-		src: "./audio/audio.mp3"
+$("#player").vpplayer({
+    src: "./audio/audio.mp3"
     type: "audio/mp3",
     trackName: "sample audio",
     preloadMessage: "LOADING..........."
-	});
+});
 });
 </pre>
 The <b>preloadMessage</b> attribute is used to display the message such as LOADING. before the audio file is loaded into the player.
@@ -92,13 +92,13 @@ The <b>preloadMessage</b> attribute is used to display the message such as LOADI
 <b>view attribute</b>
 <pre>
 $(document).ready(function(){
-	$("#player").vpplayer({
-		src: "./audio/audio.mp3"
+$("#player").vpplayer({
+    src: "./audio/audio.mp3"
     type: "audio/mp3",
     trackName: "sample audio",
     preloadMessage: "LOADING...........",
     view: "basic"
-	});
+});
 });
 </pre>
 The <b>view</b> attribute specifies the view mode of the player.
@@ -111,14 +111,14 @@ vpplayer supports two mode of view.
 <b>playerColor attribute</b>
 <pre>
 $(document).ready(function(){
-	$("#player").vpplayer({
-		src: "./audio/audio.mp3"
+$("#player").vpplayer({
+    src: "./audio/audio.mp3"
     type: "audio/mp3",
     trackName: "sample audio",
     preloadMessage: "LOADING...........",
     view: "basic",
     playerColor: "black"
-	});
+});
 });
 </pre>
 The <b>playerColor</b> attribute is used to define a custom color to the player skin.
@@ -138,15 +138,15 @@ playerColor: "black, grey"
 <b>displayColor attribute</b>
 <pre>
 $(document).ready(function(){
-	$("#player").vpplayer({
-		src: "./audio/audio.mp3"
+$("#player").vpplayer({
+    src: "./audio/audio.mp3"
     type: "audio/mp3",
     trackName: "sample audio",
     preloadMessage: "LOADING...........",
     view: "basic",
     playerColor: "black",
     displayColor: "green"
-	});
+});
 });
 </pre>
 The <b>displayColor</b> attribute is used to define a custom color to the player screen.
