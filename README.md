@@ -9,7 +9,7 @@ This is the basic jquery audio player plugin. Before start using this plugin, so
 get jquery library from <a href="https://jquery.com/download/">https://jquery.com/download/</a>
 
 <b>Bootstrap library</b><br/>
-get bootstrap library from one of the following link <a href="https://www.bootstrapcdn.com/">https://www.bootstrapcdn.com/</a> <b>or</b> <a href="https://getbootstrap.com/docs/3.3/getting-started/">https://getbootstrap.com/docs/3.3/getting-started/</a>
+get bootstrap library from one of the following links <a href="https://www.bootstrapcdn.com/">https://www.bootstrapcdn.com/</a> <b>or</b> <a href="https://getbootstrap.com/docs/3.3/getting-started/">https://getbootstrap.com/docs/3.3/getting-started/</a>
 
 <b>Glyphicon</b><br/>
 download the glyphicon from <a href="https://jquery.com/download/">https://jquery.com/download/</a>
@@ -51,7 +51,7 @@ $("#player").vpplayer({
 });
 });
 </pre>
-The <b>src</b> attribute is process the url of the audio file. In the above code the <b>"./audio/audio.mp3"</b> path is the audio file path within the application.
+The <b>src</b> attribute processes the url of the audio file. In the above code the <b>"./audio/audio.mp3"</b> path is the audio file path within the application.
 
 <b>type attribute</b>
 <pre>
